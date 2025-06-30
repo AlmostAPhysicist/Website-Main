@@ -1,47 +1,33 @@
-# Astro Starter Kit: Minimal
+I'm planning to create a website under my domain: [almostaphysicist.com](https://almostaphysicist.com).
 
-```sh
-npm create astro@latest -- --template minimal
-```
+## Site Structure
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/minimal)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/minimal)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/minimal/devcontainer.json)
+- **Main Page:** My basic info and highlights.
+- **Portfolio Page**
+- **Blog Page**
+- **Notes Page:** (A digital garden, inspired by Obsidian)
+- **Workshop:** (A place for cool experiments and ideas.)
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+### Navigation
 
-## 🚀 Project Structure
+- The main page should link to all other pages.
+- Every page will have my logo at the top, which links back to the main page.
 
-Inside of your Astro project, you'll see the following folders and files:
+### Subdomain Setup
 
-```text
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+- Subdomains like the blog should be accessible at both `almostaphysicist.com/blog` and the primary address: `blog.almostaphysicist.com`.
+- Is it possible to set this up using aliases or similar features?
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+### Domain & Subdomain Management
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+- How can I configure this on Porkbun?
+- I want similar subdomain setups for the other sections too.
 
-Any static assets, like images, can be placed in the `public/` directory.
+### Project Structure
 
-## 🧞 Commands
+- Each section (main site, blog, portfolio, etc.) will be a separate project on GitHub.
+- On the main website, as an example, the blog page will give an overview and highlights, then link out to the full blog site.
 
-All commands are run from the root of the project, from a terminal:
+---
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+Any advice or tips on structuring this, especially with domains, subdomains, and independent GitHub projects, would be appreciated!
