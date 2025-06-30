@@ -3,3 +3,9 @@
   to = "https://blog.almostaphysicist.com"
   status = 301
   force = true
+
+[[redirects]]
+  from = "/blog/*"
+  to = "https://blog.almostaphysicist.com"
+  status = 301
+  force = true
